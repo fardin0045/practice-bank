@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/0b4e722849.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+       
+    </header>
+    <main class="mt-24">
+        <div  class="w-9/12 bg-sky-300 mx-auto">
+            <div class="text-center pb-5">
+                <h2 class="text-4xl p-4 font-semibold ">Onik's Text Editor</h2>
+                <div class="border-2 border-black w-3/4 mx-auto bg-sky-100 mb-5 pb-5">
+                    <div class="border-b-black flex justify-between p-5 border-b-2 ml-4 mr-4">
+                        <div class="space-x-5 ">
+                            <button id="font-bold"  class="hover:bg-sky-400 p-2"><i class="fa-solid fa-bold"></i></button>
+                            <button id="font-italic" class="hover:bg-sky-400 p-2"><i class="fa-solid fa-italic"></i></button>
+                            <button id="font-underline" class="hover:bg-sky-400 p-2"><i class="fa-solid fa-underline"></i></button>
+                        </div>
+                        <div class="space-x-5">
+                           <button id="text-justify" class="hover:bg-sky-400 p-2"><i class="fa-solid fa-align-justify"></i></button>
+                           <button id="text-center" class="hover:bg-sky-400 p-2"><i class="fa-solid fa-align-center"></i></button>
+                           <button id="text-left" class="hover:bg-sky-400 p-2">
+                            <i class="fa-solid fa-align-left"></i>
+                           </button>
+                           <button id="text-right" class="hover:bg-sky-400" > <i class="fa-solid fa-align-right"></i></button>
+                          
+                        </div>
+                        <div class="space-x-2">
+                          <button id="small-font" class="hover:bg-sky-400 p-1" ><i class="fa-solid fa-a"></i></button>
+                            <button id="big-font" class="hover:bg-sky-400 p-1" ><i class="fa-solid fa-a text-2xl"></i></button>
+                            <input type="color" id="text-color" name="favcolor" value="#ff0000">
+                        </div>
+                    </div>
+                    <div class="mt-12" >
+                        <textarea name="" id="text-field" class="w-9/12 h-96"
+
+                        ></textarea>
+                      
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <script src="js/button.js"></script>
+</body>
+</html>
